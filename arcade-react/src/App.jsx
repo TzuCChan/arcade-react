@@ -15,6 +15,10 @@ function App() {
       </div>
     );
   }
+
+  function GameChanger() {
+    return <div class="container"></div>;
+  }
 }
 
 export default App;
