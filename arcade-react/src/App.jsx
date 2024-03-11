@@ -24,6 +24,14 @@ function App() {
     const closeNav = () => {
       setWidth('0px');
     };
+
+    return (
+      <div id="mySidenav" class="sidenav" style={{ width: width }}>
+        <a href="javascript:void(0)" class="closebtn" onClick={closeNav}>
+          &times;
+        </a>
+      </div>
+        );
   }
 }
 
