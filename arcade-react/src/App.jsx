@@ -19,6 +19,12 @@ function App() {
   function GameChanger() {
     return <div class="container"></div>;
   }
+
+  function List() {
+    const closeNav = () => {
+      setWidth('0px');
+    };
+  }
 }
 
 export default App;
