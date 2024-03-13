@@ -30,6 +30,28 @@ function App() {
         <a href="javascript:void(0)" class="closebtn" onClick={closeNav}>
           &times;
         </a>
+        <a
+          class="fox"
+          href="http://www.chinatownfair.biz/"
+          onClick={GameChanger}
+        >
+          Chinatown Fair
+        </a>
+        <a class="fox" href="https://www.os-nyc.com/" onClick={GameChanger}>
+          OS NYC
+        </a>
+        <a class="fox" href="https://acebar.com/" onClick={GameChanger}>
+          Ace Bar
+        </a>
+        <a class="fox" href="https://barcadestmarks.com/" onClick={GameChanger}>
+          Barcade (St. Marks)
+        </a>
+        <a class="fox" href="https://barcadenewyork.com/" onClick={GameChanger}>
+          Barcade (24th St)
+        </a>
+        <a class="fox" href="https://tidalforcevr.com/" onClick={GameChanger}>
+          Tidal Force VR
+        </a>
       </div>
         );
   }
