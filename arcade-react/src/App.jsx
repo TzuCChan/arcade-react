@@ -69,6 +69,14 @@ function App() {
       </div>
         );
   }
+
+  return (
+    <div className="App">
+      <Game />
+      <GameChanger />
+      <List />
+    </div>
+  );
 }
 
 export default App;
