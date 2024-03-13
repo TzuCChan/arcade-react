@@ -31,26 +31,40 @@ function App() {
           &times;
         </a>
         <a
-          class="fox"
+          class="F"
           href="http://www.chinatownfair.biz/"
           onClick={GameChanger}
         >
           Chinatown Fair
         </a>
-        <a class="fox" href="https://www.os-nyc.com/" onClick={GameChanger}>
+        <a class="F" href="https://www.os-nyc.com/" onClick={GameChanger}>
           OS NYC
         </a>
-        <a class="fox" href="https://acebar.com/" onClick={GameChanger}>
+        <a class="F" href="https://acebar.com/" onClick={GameChanger}>
           Ace Bar
         </a>
-        <a class="fox" href="https://barcadestmarks.com/" onClick={GameChanger}>
+        <a class="F" href="https://barcadestmarks.com/" onClick={GameChanger}>
           Barcade (St. Marks)
         </a>
-        <a class="fox" href="https://barcadenewyork.com/" onClick={GameChanger}>
+        <a class="F" href="https://barcadenewyork.com/" onClick={GameChanger}>
           Barcade (24th St)
         </a>
-        <a class="fox" href="https://tidalforcevr.com/" onClick={GameChanger}>
+        <a class="F" href="https://tidalforcevr.com/" onClick={GameChanger}>
           Tidal Force VR
+        </a>
+        <a
+          class="F"
+          href="https://www.daveandbusters.com/"
+          onClick={GameChanger}
+        >
+          Dave and Buster's
+        </a>
+        <a
+          class="F"
+          href="https://www.bowlero.com/location/bowlero-times-square"
+          onClick={GameChanger}
+        >
+          Bowlero Times Square
         </a>
       </div>
         );
