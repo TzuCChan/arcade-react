@@ -60,3 +60,7 @@
   align-items: center;
   height: 50%;
 }
+
+#icon {
+  font-size: 150px;
+}
