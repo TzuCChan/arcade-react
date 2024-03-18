@@ -11,7 +11,7 @@ function App() {
     };
     return (
       <div id="icon" onClick={openNav}>
-        🎮
+        🎮Menu🎮
       </div>
     );
   }
